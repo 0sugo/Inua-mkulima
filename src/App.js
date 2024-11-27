@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div>
-      <Toaster position="top-center" richColors /> {/* Global toast notifications */}
+      <Toaster position="top-center" richColors />
       <Layout />
     </div>
   );

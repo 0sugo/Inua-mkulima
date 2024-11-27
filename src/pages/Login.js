@@ -83,7 +83,6 @@ const Login = ({ setAccessToken }) => {
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-4 my-8">
-            {/* Username Input */}
             {!showPasswordField && (
               <div>
                 <h6 className="text-[#707070] font-medium">Enter your username to continue</h6>
@@ -103,7 +102,6 @@ const Login = ({ setAccessToken }) => {
               </div>
             )}
 
-            {/* Password Input */}
             {showPasswordField && (
               <div>
                 <h6 className="text-[#707070] font-medium">Enter your password</h6>
@@ -130,7 +128,6 @@ const Login = ({ setAccessToken }) => {
               </div>
             )}
 
-            {/* Continue Button */}
             {!showPasswordField ? (
               <button
                 type="button"

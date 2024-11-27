@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from '../api/api';
-import { CiCirclePlus, CiCircleMinus } from 'react-icons/ci'; // Import the Circle Plus and Minus icons
+import { CiCirclePlus, CiCircleMinus } from 'react-icons/ci';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -49,7 +49,7 @@ const Home = () => {
     console.log('Deduction triggered');
     try {
       const totalDeduction = selectedProducts.reduce((sum, product) => sum + product.price * product.quantity, 0);
-      console.log('Total Deduction:', totalDeduction); // Debugging line
+      console.log('Total Deduction:', totalDeduction);
 
       if (walletBalance >= totalDeduction) {
         if (selectedProducts.length > 0) {
@@ -61,8 +61,8 @@ const Home = () => {
             discount: (product.price * product.quantity * (product.discountPercentage / 100)).toFixed(2),
           }));
 
-          console.log('Saving to localStorage:', productsToSave); // Debugging line
-          localStorage.setItem('selectedProducts', JSON.stringify(productsToSave)); // Store detailed info
+          console.log('Saving to localStorage:', productsToSave);
+          localStorage.setItem('selectedProducts', JSON.stringify(productsToSave));
         }
 
         setWalletBalance(walletBalance - totalDeduction);
