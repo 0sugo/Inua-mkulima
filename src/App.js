@@ -7,13 +7,13 @@ import { Toaster } from 'sonner';
 const App = () => {
   const { accessToken, setAccessToken } = useToken();
 
-  // if (!accessToken) {
-  //   return (
-  //     <div className="min-h-screen flex justify-center items-center">
-  //       <Login setAccessToken={setAccessToken} />
-  //     </div>
-  //   );
-  // }
+  if (!accessToken) {
+    return (
+      <div className="min-h-screen flex justify-center items-center">
+        <Login setAccessToken={setAccessToken} />
+      </div>
+    );
+  }
 
   return (
     <div>
