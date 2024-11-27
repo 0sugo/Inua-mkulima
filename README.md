@@ -12,6 +12,7 @@ Inua mkulima (React)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Testing](#testing)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -23,6 +24,14 @@ Inua mkulima (React)
 
 
 **[Inua-Mkulima]** is a front-end developer project as atechnical assessment for cooperative Bank<a href=""> Inua-Mkulima API</a>.
+!!!!
+
+DISLAIMER:THE API HAS AN ISSUE!!!THE CREDENTIALS GIVEN IN THE INTERVIEW STILL RETURN AN INCORRECT PASSWORD.FOR THIS PROGRAM TO RUN PERFECTLY KINDLY PROVIDE A LOGIN TOKEN AS A SERVER RESPONSE IF CORRECT CREDENTIALS ARE USED.HERE ARE THE LOGINS THAT WERE PROVIDED:
+
+{
+    "username": "emilys",
+    "password": "emilypass"
+}
 
 ## 🛠 Built With  <a name="built-with"></a>
 
@@ -95,9 +104,12 @@ git clone  <https://github.com/0sugo/Inua-mkulima.git>
 - run ```npm i``` to install all dependencies
 - run ```npm run start``` to launch the application
 
+### Testing
+To run tests for this application,Follow steps below:
+- Make sure you have your terminal in the same directory you downloaded this copy:
+- run ```npm test```
 
 ## 👥 Authors <a name="authors"></a>
-
 
 
 👤 **JOSECK OSUGO**
