@@ -33,6 +33,9 @@ DISLAIMER:THE API HAS AN ISSUE!!!THE CREDENTIALS GIVEN IN THE INTERVIEW STILL RE
     "password": "emilypass"
 }
 
+OTHERWISE COMMENT LINE 10-16 ON APP.JS TO ENJOY OTHER FEATURES OF THE APP.USE ROUTE (/login) to checkout login
+!!!
+
 ## 🛠 Built With  <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>

@@ -179,7 +179,7 @@ const Login = ({ setAccessToken }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setErrors({ username: '', password: '' }); // Clear previous errors
+    setErrors({ username: '', password: '' });
 
     if (!username) {
       setErrors((prevErrors) => ({ ...prevErrors, username: 'Username is required.' }));
