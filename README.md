@@ -19,7 +19,7 @@ Inua mkulima (React)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [TV Maze App] <a name="about-project"></a>
+# 📖 [Inua Mkulima] <a name="about-project"></a>
 
 
 **[Inua-Mkulima]** is a front-end developer project as atechnical assessment for cooperative Bank<a href=""> Inua-Mkulima API</a>.
